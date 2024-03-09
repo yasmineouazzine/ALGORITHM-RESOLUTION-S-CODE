@@ -2,21 +2,21 @@
 
 # THE CODE PRESENT TRANSLATION OF THIS ALGORITHM:
 
-    <p><b style="color:red;">Début</b></p>
-    <p><b style="color:red;">Ecrire la négation de F ;</b></p>
-    <p><b style="color:red;">Mettre F sous forme d'un ensemble de </b></p>
-    <p><b style="color:red;">clauses ;</b></p>
-    <p><b style="color:red;">Tant que la clause vide n'est pas rencontrée </b></p>
-    <p><b style="color:red;">et qu'il</b></p>
-    <p><b style="color:red;">existe des paires réductibles faire</b></p>
-    <p><b style="color:red;">Début</b></p>
-    <p><b style="color:red;">Chercher des clauses résolvantes ;</b></p>
-    <p><b style="color:red;">Ajouter ce résultat à la liste des clauses ;</b></p>
-    <p><b style="color:red;">Fintantque ;</b></p>
-    <p><b style="color:red;">Si on trouve la clause vide alors F est valide</b></p>
-    <p><b style="color:red;">sinon F est invalide</b></p>
-    <p><b style="color:red;">Finsi ;</b></p>
-    <p><b style="color:red;">Fin ;</b></p>
+        <p>Début</p>
+        <p>Ecrire la négation de F ;</p>
+        <p>Mettre F sous forme d'un ensemble de </p>
+        <p>clauses ;</p>
+        <p>Tant que la clause vide n'est pas rencontrée </p>
+        <p>et qu'il</p>
+        <p>existe des paires réductibles faire</p>
+        <p>Début</p>
+        <p>Chercher des clauses résolvantes ;</p>
+        <p>Ajouter ce résultat à la liste des clauses ;</p>
+        <p>Fintantque ;</p>
+        <p>Si on trouve la clause vide alors F est valide</p>
+        <p>sinon F est invalide</p>
+        <p>Finsi ;</p>
+        <p>Fin ;</p>
 
 
 
