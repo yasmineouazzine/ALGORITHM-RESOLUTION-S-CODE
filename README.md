@@ -145,13 +145,12 @@
     
 <p><b>The first page </b></p>
 
-![First page](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/b45e6f21-5b4f-4239-8f46-9d8e6877c3a9)
+<img src="First page.png">
 
  <p><b>The second page </b></p>
 
 
- ![Second page](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/286ed254-c67c-40b1-91a1-76bd2f3e744a)
-
+<img src="Second page.png">
  # Test ( we will use some formula to test the code ):
 
 # 1-Test 1 :
@@ -159,7 +158,7 @@ we will use this formula first : <p><b>{¬P ∧ ¬Q  v P}</b></p>
 
 # 1.1- Truth table :
 <p>. we will use the truth table to understand the result given by the code </p>
-![Screenshot 2024-03-09 171525](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/25a04179-d12a-406a-8810-fecfedce89d5)
+<img src="Truth table.png">
 
 
 # 1.2- Analyse the Formula :
@@ -174,7 +173,7 @@ we will use this formula first : <p><b>{¬P ∧ ¬Q  v P}</b></p>
 # First :
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
 
-![test de formule 3 qui est valide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/f53ea999-297c-459f-8bce-3b95cd8f7ab4)
+<img src="test de formule 3 qui est valide.png">
 
 <p><b> Thanks to the Analyze and the Truth table we concluded that the expression is valid</b></p>
 
@@ -189,7 +188,8 @@ For the entire statement to be true, the value of  P  must be true. Since there 
 In essence, this formula asserts a single condition: P must be true, and there are no contradictory statements or additional requirements. Therefore, any truth assignment where P is true satisfies the formula, making it valid.</p>
 
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
-![test de formule 2 qui est valide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/5ffbb6bb-8ae3-4d21-b757-b93835447e75)
+<img src="test de formule 2 qui est valide.png">
+
 
 # THIRD :
 we will this time use the expression : <p></b>{¬P v ¬Q v R, ¬R, P, ¬T v Q, T}</p></b>
@@ -219,7 +219,8 @@ we will this time use the expression : <p></b>{¬P v ¬Q v R, ¬R, P, ¬T v Q, T
 
 <p><b></b>However, if Q  is true and P  is true, clause 1 suggests that either ¬P  or  ¬Q  must be true, which contradicts our initial assumption that both  P  and  Q  are true. Therefore, the formula is invalid.</p></b>
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
-![test de formule 1  qui est invalide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/482e7c1c-419e-41ce-8cae-48a4dc657058)
+<img src="test de formule 1 qui est invalide.png">
+
 
 # FOURTH:
 we will this time use the expression : <p></b>{P v Q , ¬Q , P} </p></b>
@@ -232,6 +233,18 @@ La première clause P v Q indique que soit  P , soit  Q , soit les deux, doivent
 
 De plus, la troisième clause P  ne peut pas résoudre cette contradiction car elle n'affecte pas la valeur de Q . Ainsi, il n'y a aucune assignation de vérité possible qui puisse rendre toutes les clauses vraies, ce qui rend la formule invalide.</p>
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
-![test de formule 4 qui est invalide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/55271455-6362-4f50-aeab-5b1af39f6cfa)
+<img src="test de formule 4 qui est invalide.png">
+
+# USAGE :
+<p>1-Clone the repository to your local machine.</p>>
+
+<p>2-Navigate to the Project Directory.</p>
+
+<p>3-Run the Application.</p>
+
+<p>4-Input Formula: Enter the formula.</p>
+
+<p>5-Submit and Check: Click the "Resolve" button to check the validity of the formula. The result will be displayed on the screen.</p>
+
 
 
