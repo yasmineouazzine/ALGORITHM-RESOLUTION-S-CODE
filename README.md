@@ -159,7 +159,8 @@ we will use this formula first : <p><b>{¬P ∧ ¬Q  v P}</b></p>
 
 # 1.1- Truth table :
 <p>. we will use the truth table to understand the result given by the code </p>
-![Screenshot 2024-03-09 171525](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/923e2a35-c3aa-49fe-b494-075c1036a088)
+![Screenshot 2024-03-09 171525](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/25a04179-d12a-406a-8810-fecfedce89d5)
+
 
 # 1.2- Analyse the Formula :
 
