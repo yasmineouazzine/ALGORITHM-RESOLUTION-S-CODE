@@ -142,8 +142,12 @@
 <p>The appearance of the fist message :</p>
     <p>Welcome to the Resolution Algorithm </p>
     <p>created by Yasmine Ouazzine</p>
+    
 <p><b>The first page </b></p>
+
 ![First page](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/b45e6f21-5b4f-4239-8f46-9d8e6877c3a9)
 
  <p><b>The second page </b></p>
+
+
  ![Second page](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/286ed254-c67c-40b1-91a1-76bd2f3e744a)
