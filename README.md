@@ -2,21 +2,22 @@
 
 # THE CODE PRESENT TRANSLATION OF THIS ALGORITHM:
 
-        <p>Début</p>
-        <p>Ecrire la négation de F ;</p>
-        <p>Mettre F sous forme d'un ensemble de </p>
-        <p>clauses ;</p>
-        <p>Tant que la clause vide n'est pas rencontrée </p>
-        <p>et qu'il</p>
-        <p>existe des paires réductibles faire</p>
-        <p>Début</p>
-        <p>Chercher des clauses résolvantes ;</p>
-        <p>Ajouter ce résultat à la liste des clauses ;</p>
-        <p>Fintantque ;</p>
-        <p>Si on trouve la clause vide alors F est valide</p>
-        <p>sinon F est invalide</p>
-        <p>Finsi ;</p>
-        <p>Fin ;</p>
+                Début
+                Ecrire la négation de F ;
+                Mettre F sous forme d'un ensemble de 
+                clauses ;
+                Tant que la clause vide n'est pas rencontrée 
+                et qu'il
+                existe des paires réductibles faire
+                Début
+                Chercher des clauses résolvantes ;
+                Ajouter ce résultat à la liste des clauses ;
+                Fintantque ;
+                Si on trouve la clause vide alors F est valide
+                sinon F est invalide
+                Finsi ;
+                Fin ;
+
 
 
 
