@@ -236,7 +236,7 @@ De plus, la troisième clause P  ne peut pas résoudre cette contradiction car e
 <img src="test de formule 4 qui est invalide.png">
 
 # USAGE :
-<p>1-Clone the repository to your local machine.</p>>
+<p>1-Clone the repository to your local machine.</p>
 
 <p>2-Navigate to the Project Directory.</p>
 
