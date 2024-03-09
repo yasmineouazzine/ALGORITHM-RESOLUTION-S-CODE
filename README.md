@@ -219,7 +219,7 @@ we will this time use the expression : <p></b>{¬P v ¬Q v R, ¬R, P, ¬T v Q, T
 
 <p><b></b>However, if Q  is true and P  is true, clause 1 suggests that either ¬P  or  ¬Q  must be true, which contradicts our initial assumption that both  P  and  Q  are true. Therefore, the formula is invalid.</p></b>
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
-<img src="test de formule 1 qui est invalide.png">
+<img src="test de formule 1  qui est invalide.png">
 
 
 # FOURTH:
