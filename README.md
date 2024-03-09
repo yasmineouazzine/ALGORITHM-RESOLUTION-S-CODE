@@ -151,3 +151,86 @@
 
 
  ![Second page](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/286ed254-c67c-40b1-91a1-76bd2f3e744a)
+
+ # Test ( we will use some formula to test the code ):
+
+# 1-Test 1 :
+we will use this formula first : <p><b>{¬P ∧ ¬Q  v P}</b></p>
+
+# 1.1- Truth table :
+<p>. we will use the truth table to understand the result given by the code </p>
+![Screenshot 2024-03-09 171525](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/923e2a35-c3aa-49fe-b494-075c1036a088)
+
+# 1.2- Analyse the Formula :
+
+<p>.¬P ∧ ¬Q: This part of the formula represents the negation of P and the negation of Q, meaning both P and Q must be false for this part to be true.</p>
+<p>.¬P ∧ ¬Q v P: The conjunction (¬P ∧ ¬Q) evaluates to true when both P and Q are false. The disjunction of (¬P ∧ ¬Q) with P will be true if either (¬P ∧ ¬Q) is true or if P is true. Given that (¬P ∧ ¬Q) can only be true when P is false, the formula becomes true only when P is false. This makes sense logically because if P is false, then the whole formula will evaluate to true regardless of the value of Q.</p>
+
+<p><b>Therefore, the formula {¬P ∧ ¬Q v P} is valid because it is always true regardless of the truth values of P and Q.</b></p>
+
+# we can visualize the steps thanks to the friendy-use interface :
+
+# First :
+<p>.we will insert the expression and click on Resolve to visualize the result:</p>
+
+![test de formule 3 qui est valide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/f53ea999-297c-459f-8bce-3b95cd8f7ab4)
+
+<p><b> Thanks to the Analyze and the Truth table we concluded that the expression is valid</b></p>
+
+<p><b>*WE WILL USE DIFFERENT FORMULA AND WE GET THE RESULT USING THE SAME STEPS</p></b> 
+<p><b> Let's visualize the result of each formula </b></p>
+
+# SECOND :
+we will this time use the expression : <p></b>{P}</p></b>
+<p><b>Explination:</b></p>
+<p>The formula {P}  contains only one clause, P. 
+For the entire statement to be true, the value of  P  must be true. Since there are no conflicting clauses or conditions, and the only requirement is for  P  to be true, the formula is valid.
+In essence, this formula asserts a single condition: P must be true, and there are no contradictory statements or additional requirements. Therefore, any truth assignment where P is true satisfies the formula, making it valid.</p>
+
+<p>.we will insert the expression and click on Resolve to visualize the result:</p>
+![test de formule 2 qui est valide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/5ffbb6bb-8ae3-4d21-b757-b93835447e75)
+
+# THIRD :
+we will this time use the expression : <p></b>{¬P v ¬Q v R, ¬R, P, ¬T v Q, T}</p></b>
+<p><b>Explination:</b></p>
+
+<p>To determine the validity of the formula {¬P v ¬Q v R, ¬R, P, ¬T v Q, T}, let's analyze it:</p>
+
+# 1. ¬P v ¬Q v R:
+<p>This clause indicates that either  P  or  Q  or both must be false for the entire statement to be true. So, if both P  and  Q  are false, or if either  P  or  Q  is false and  R  is true, then this clause holds.</p>
+
+# 2. ¬R:
+ <p>This clause states that  R  must be false.</p>
+
+# 3.P :
+<p>This clause states that  P  must be true.</p>
+
+# 4.¬T v Q :
+<p>This clause indicates that either  T  must be false or  Q  must be true for the entire statement to be true.</p>
+
+# 5.T :
+<p>This clause states that  T  must be true.</p>
+
+# the consistency of these clauses:
+
+<p>- Clauses 1, 2, and 3 together imply that P  must be true, and  R  must be false.</p>
+<p>- Clauses 4 and 5 together imply that T  must be true, and Q  must also be true.</p>
+
+<p><b></b>However, if Q  is true and P  is true, clause 1 suggests that either ¬P  or  ¬Q  must be true, which contradicts our initial assumption that both  P  and  Q  are true. Therefore, the formula is invalid.</p></b>
+<p>.we will insert the expression and click on Resolve to visualize the result:</p>
+![test de formule 1  qui est invalide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/482e7c1c-419e-41ce-8cae-48a4dc657058)
+
+# FOURTH:
+we will this time use the expression : <p></b>{P v Q , ¬Q , P} </p></b>
+<p><b>Explination:</b></p>
+<p>To determine the validity of the formula {P v Q , ¬Q , P}  , let's analyze it:</p>
+
+<p>.La formule est invalide car elle conduit à une contradiction. 
+
+La première clause P v Q indique que soit  P , soit  Q , soit les deux, doivent être vrais. Cependant, la deuxième clause ¬Q stipule que  Q  doit être faux. Cela crée une contradiction avec la première clause, car si Q  doit être faux mais aussi vrai (selon la première clause), il y a un conflit.
+
+De plus, la troisième clause P  ne peut pas résoudre cette contradiction car elle n'affecte pas la valeur de Q . Ainsi, il n'y a aucune assignation de vérité possible qui puisse rendre toutes les clauses vraies, ce qui rend la formule invalide.</p>
+<p>.we will insert the expression and click on Resolve to visualize the result:</p>
+![test de formule 4 qui est invalide](https://github.com/yasmineouazzine/ALGORITHM-RESOLUTION-S-CODE/assets/142170643/55271455-6362-4f50-aeab-5b1af39f6cfa)
+
+
