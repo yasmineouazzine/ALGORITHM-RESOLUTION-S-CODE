@@ -157,12 +157,12 @@
 # 1-Test 1 :
 we will use this formula first : <p><b>{¬P ∧ ¬Q  v P}</b></p>
 
-# 1.1- Truth table :
+#  Truth table :
 <p>. we will use the truth table to understand the result given by the code </p>
 <img src="Truth table.png">
 
 
-# 1.2- Analyse the Formula :
+#  Analyse the Formula :
 
 <p>.¬P ∧ ¬Q: This part of the formula represents the negation of P and the negation of Q, meaning both P and Q must be false for this part to be true.</p>
 <p>.¬P ∧ ¬Q v P: The conjunction (¬P ∧ ¬Q) evaluates to true when both P and Q are false. The disjunction of (¬P ∧ ¬Q) with P will be true if either (¬P ∧ ¬Q) is true or if P is true. Given that (¬P ∧ ¬Q) can only be true when P is false, the formula becomes true only when P is false. This makes sense logically because if P is false, then the whole formula will evaluate to true regardless of the value of Q.</p>
@@ -171,19 +171,19 @@ we will use this formula first : <p><b>{¬P ∧ ¬Q  v P}</b></p>
 
 # we can visualize the steps thanks to the friendy-use interface :
 
-# First :
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
 
 <img src="test de formule 3 qui est valide.png">
 
 <p><b> Thanks to the Analyze and the Truth table we concluded that the expression is valid</b></p>
 
-<p><b>*WE WILL USE DIFFERENT FORMULA AND WE GET THE RESULT USING THE SAME STEPS</p></b> 
-<p><b> Let's visualize the result of each formula </b></p>
+  <p><b>*WE WILL USE DIFFERENT FORMULA AND WE GET THE RESULT USING THE SAME STEPS</p></b> 
+  <p><b> Let's visualize the result of each formula </b></p>
 
-# SECOND :
+# 2-Test 2 :
 we will this time use the expression : <p></b>{P}</p></b>
-<p><b>Explination:</b></p>
+
+#  Analyse the Formula
 <p>The formula {P}  contains only one clause, P. 
 For the entire statement to be true, the value of  P  must be true. Since there are no conflicting clauses or conditions, and the only requirement is for  P  to be true, the formula is valid.
 In essence, this formula asserts a single condition: P must be true, and there are no contradictory statements or additional requirements. Therefore, any truth assignment where P is true satisfies the formula, making it valid.</p>
@@ -192,9 +192,10 @@ In essence, this formula asserts a single condition: P must be true, and there a
 <img src="test de formule 2 qui est valide.png">
 
 
-# THIRD :
+# 3- Test3:
 we will this time use the expression : <p></b>{¬P v ¬Q v R, ¬R, P, ¬T v Q, T}</p></b>
-<p><b>Explination:</b></p>
+
+#  Analyse the Formula
 
 <p>To determine the validity of the formula {¬P v ¬Q v R, ¬R, P, ¬T v Q, T}, let's analyze it:</p>
 
@@ -223,16 +224,16 @@ we will this time use the expression : <p></b>{¬P v ¬Q v R, ¬R, P, ¬T v Q, T
 <img src="test de formule 1  qui est invalide.png">
 
 
-# FOURTH:
+# 4-Test 4 :
 we will this time use the expression : <p></b>{P v Q , ¬Q , P} </p></b>
 <p><b>Explination:</b></p>
 <p>To determine the validity of the formula {P v Q , ¬Q , P}  , let's analyze it:</p>
 
-<p>.La formule est invalide car elle conduit à une contradiction. 
+<p>.The formula is invalid because it leads to a contradiction.
 
-La première clause P v Q indique que soit  P , soit  Q , soit les deux, doivent être vrais. Cependant, la deuxième clause ¬Q stipule que  Q  doit être faux. Cela crée une contradiction avec la première clause, car si Q  doit être faux mais aussi vrai (selon la première clause), il y a un conflit.
+The first clause P v Q indicates that either P, or Q, or both must be true. However, the second clause ¬Q states that Q must be false. This creates a contradiction with the first clause because if Q must be false but also true (according to the first clause), there is a conflict.
 
-De plus, la troisième clause P  ne peut pas résoudre cette contradiction car elle n'affecte pas la valeur de Q . Ainsi, il n'y a aucune assignation de vérité possible qui puisse rendre toutes les clauses vraies, ce qui rend la formule invalide.</p>
+Furthermore, the third clause P cannot resolve this contradiction because it does not affect the value of Q. Thus, there is no possible truth assignment that can make all the clauses true, rendering the formula invalid..</p>
 <p>.we will insert the expression and click on Resolve to visualize the result:</p>
 <img src="test de formule 4 qui est invalide.png">
 
